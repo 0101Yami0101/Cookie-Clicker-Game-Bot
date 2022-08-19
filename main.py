@@ -24,7 +24,7 @@ def Buy(count):
       grandma = driver.find_element(By.ID, "buyGrandma")
       grandma.click()
     elif count > 50: 
-      cursor = driver.find_element(By.ID, "buyGrandma")
+      cursor = driver.find_element(By.ID, "buyCursor")
       cursor.click()
 
 cookie = driver.find_element(By.XPATH,"//*[@id='cookie']")
